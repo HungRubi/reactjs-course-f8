@@ -1,0 +1,34 @@
+====== SPA/MPA ======
+
+*SPA - Single-Page Application / CSR - Client side rendering
+-ReactJS là một trong những thư viện lớn tạo ra SPA
+-Các ông lớn sử dụng SPA: Google, Facebook, Twitter
+-Các SPA khác: F8, ZingMP3,Shopee
+
+*MPA - Multi-Page Application / SSR - Server side rendering
+-Ứng dụng web nhiều trang
+-các MPA: các trang báo
+
+*Sự khác biệt giữa SPA/MPA
+**SPA:
+-hiện đại hơn: mới phát triển 10 năm gần đây
+-không yêu cầu tải lại trang trong quá trình sử dụng
+-phần lớn tài nguyên được tải trong lần đầu truy cập
+-chỉ tải thêm dữ liệu mới khi cần
+-lần đầu truy cập vào có thể bị chậm do tối ưu không tốt
+-bóc tách code gọn gàng riêng biệt giữa FE & BA: chia team phát triển song song, phát triển thêm mobile app
+-không thân thiện với SEO bằng MPA
+-mang lại trải nghiệm người dùng tốt hơn
+-trải nghiệm tốt hơn trên thiết bị di động
+-dễ dàng tái sử dụng code (component)
+-hoàn toàn phụ thuộc vào JS
+-chi phí phát triển cao 
+**MPA:
+-cách tiếp cận cổ điển hơn
+-tải lại trang trong quá trình sử dụng
+-luôn tải lại toàn bộ trang khi truy cập và điều hướng
+-FE & BA phụ thuộc vào nhau nhiều hơn, thường đặt trong cùng 1 dự án
+-thân thiện với SEO hơn SPA
+-có thể không cần js
+-chi phí phát triển thấp hơn SPA
+=> không có gì là tối ưu phải sử dụng đúng lúc đúng chỗ
